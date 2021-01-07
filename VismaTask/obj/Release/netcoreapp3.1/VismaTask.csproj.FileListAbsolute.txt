@@ -1,0 +1,13 @@
+D:\Semester 8\Baigiamoji praktika\VismaTask\bin\Release\netcoreapp3.1\VismaTask.exe
+D:\Semester 8\Baigiamoji praktika\VismaTask\bin\Release\netcoreapp3.1\VismaTask.deps.json
+D:\Semester 8\Baigiamoji praktika\VismaTask\bin\Release\netcoreapp3.1\VismaTask.runtimeconfig.json
+D:\Semester 8\Baigiamoji praktika\VismaTask\bin\Release\netcoreapp3.1\VismaTask.runtimeconfig.dev.json
+D:\Semester 8\Baigiamoji praktika\VismaTask\bin\Release\netcoreapp3.1\VismaTask.dll
+D:\Semester 8\Baigiamoji praktika\VismaTask\bin\Release\netcoreapp3.1\VismaTask.pdb
+D:\Semester 8\Baigiamoji praktika\VismaTask\obj\Release\netcoreapp3.1\VismaTask.csprojAssemblyReference.cache
+D:\Semester 8\Baigiamoji praktika\VismaTask\obj\Release\netcoreapp3.1\VismaTask.AssemblyInfoInputs.cache
+D:\Semester 8\Baigiamoji praktika\VismaTask\obj\Release\netcoreapp3.1\VismaTask.AssemblyInfo.cs
+D:\Semester 8\Baigiamoji praktika\VismaTask\obj\Release\netcoreapp3.1\VismaTask.csproj.CoreCompileInputs.cache
+D:\Semester 8\Baigiamoji praktika\VismaTask\obj\Release\netcoreapp3.1\VismaTask.dll
+D:\Semester 8\Baigiamoji praktika\VismaTask\obj\Release\netcoreapp3.1\VismaTask.pdb
+D:\Semester 8\Baigiamoji praktika\VismaTask\obj\Release\netcoreapp3.1\VismaTask.genruntimeconfig.cache
