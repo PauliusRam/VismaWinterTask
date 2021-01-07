@@ -3,9 +3,9 @@
 ### Paulius Ramoška
 
 ## Introduction:
- This software is design for printing the greatest dad jokes in the world!
+ This software is designed for printing the greatest dad jokes in the world!
 ## Installation guide
-The following installation guide consist of few easy steps: 
+The following installation guide consists of few easy steps: 
 1.	Download VismaWinterTask file from github repository
 2.	Extract the file to your desired folder.
 3.	Open Dad joke generator folder that is inside VismaWinterTask folder.  
