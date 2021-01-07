@@ -8,8 +8,7 @@ namespace VismaTask
         static void Main(string[] args)
         {
             JokeManager jokeManager = new JokeManager();
-            jokeManager.LoadJokes();
-            jokeManager.HandleRequest();
+            jokeManager.RunProgram();
         }
        
     }

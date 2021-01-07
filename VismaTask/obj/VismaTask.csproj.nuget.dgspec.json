@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Semester 8\\Baigiamoji praktika\\VismaTask\\VismaTask.csproj": {}
+    "D:\\Semester 8\\Baigiamoji praktika\\VismaWinterTask\\VismaWinterTask\\VismaTask\\VismaTask.csproj": {}
   },
   "projects": {
-    "D:\\Semester 8\\Baigiamoji praktika\\VismaTask\\VismaTask.csproj": {
+    "D:\\Semester 8\\Baigiamoji praktika\\VismaWinterTask\\VismaWinterTask\\VismaTask\\VismaTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Semester 8\\Baigiamoji praktika\\VismaTask\\VismaTask.csproj",
+        "projectUniqueName": "D:\\Semester 8\\Baigiamoji praktika\\VismaWinterTask\\VismaWinterTask\\VismaTask\\VismaTask.csproj",
         "projectName": "VismaTask",
-        "projectPath": "D:\\Semester 8\\Baigiamoji praktika\\VismaTask\\VismaTask.csproj",
+        "projectPath": "D:\\Semester 8\\Baigiamoji praktika\\VismaWinterTask\\VismaWinterTask\\VismaTask\\VismaTask.csproj",
         "packagesPath": "C:\\Users\\Paulius Ramoška\\.nuget\\packages\\",
-        "outputPath": "D:\\Semester 8\\Baigiamoji praktika\\VismaTask\\obj\\",
+        "outputPath": "D:\\Semester 8\\Baigiamoji praktika\\VismaWinterTask\\VismaWinterTask\\VismaTask\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -9,18 +10,7 @@ namespace VismaTask
     {
         private List<JokeTemplate> jokeList = new List<JokeTemplate>();                     // Contains all dad jokes
         private int tryCounter=0;                                                           // Counter of checking how many attempts were made at menu input
-        public void LoadJokes()                                                             // Preloads jokes to list
-        {
-              jokeList.Add(new JokeTemplate(jokeList.Count + 1, "Did you hear about the restaurant on the moon?", "Great food, no atmosphere!"));
-              jokeList.Add(new JokeTemplate(jokeList.Count + 1, "Did you hear the rumor about butter?", "Well, I'm not going to spread it!"));
-              jokeList.Add(new JokeTemplate(jokeList.Count + 1, "Do you know the last thing my grandfather said to me before he kicked the bucket?", "Grandson, watch how far I can kick this bucket."));
-              jokeList.Add(new JokeTemplate(jokeList.Count + 1, "Want to hear a joke about construction?", "I'm still working on it!"));
-              jokeList.Add(new JokeTemplate(jokeList.Count + 1, "Dad, did you get a haircut ?", "No, I got them all cut!"));
-              jokeList.Add(new JokeTemplate(jokeList.Count + 1, "How do you get a squirrel to like you? ", "Act like a nut."));
-              jokeList.Add(new JokeTemplate(jokeList.Count + 1, "Why don't eggs tell jokes?", "They'd crack each other up."));
-              jokeList.Add(new JokeTemplate(jokeList.Count + 1, "What do you call someone with no body and no nose ?", "Nobody knows."));
-              jokeList.Add(new JokeTemplate(jokeList.Count + 1, "Why couldn't the bicycle stand up by itself?", "It was two tired."));
-        }
+        private DatabaseReader databaseReader = new DatabaseReader();
         private void GenerateMenu()                                                         //Generates menu
         {
             Console.WriteLine("{0} Menu {1}", new string('~', 47), new string('~', 47));
@@ -33,8 +23,9 @@ namespace VismaTask
             Console.WriteLine("Press 9 to exit");
             Console.WriteLine(new string('~', 100));
         }
-        public void HandleRequest()                                          //Handles menu choices 
+        public void RunProgram()                                          //Handles menu choices 
         {
+            jokeList = databaseReader.LoadJokes();
             Console.Clear();
             GenerateMenu();
             string request = Console.ReadLine();
@@ -222,6 +213,7 @@ namespace VismaTask
                             jokeList.Add(new JokeTemplate(jokeList.Count + 1, dadJokeQuestion, dadJokePunchline)); // adds new joke
                             Console.WriteLine(new string('~', 100));
                             Console.WriteLine("Your dad joke was added succefully");
+                            databaseReader.InsertToFile(dadJokeQuestion,dadJokePunchline);
                         }
                     }
                 }
